@@ -6,7 +6,7 @@
         nuxt-app
       </h1>
       <h2 class="subtitle">
-        My riveting Nuxt.js project
+        Nuxt.js project Puchong
       </h2>
       <div class="links">
         <a
