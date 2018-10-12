@@ -1,8 +1,13 @@
 const pkg = require('./package')
 
 module.exports = {
-  mode: 'universal',
-
+  mode: 'spa',
+  render: {
+    resourceHints: false,
+  },
+  router: {
+    mode: 'hash',
+  },
   /*
   ** Headers of the page
   */
