@@ -4,7 +4,7 @@
         <h2>{{ upperName }}</h2>
         <input type="text" :value="name"><br>
         <input type="text" v-model="name"><br>
-        <button @click="doSave">SAVE</button>
+        <v-btn @click="doSave"><v-icon>favorite</v-icon>SAVE</v-btn>
     </div>
 </template>
 <script>
